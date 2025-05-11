@@ -14,7 +14,7 @@ The dataset used is publicly available and was part of a competition running unt
 ### 1. Reporting Issues or Suggesting Features
 If you notice any problems with the data, code, documentation, or modeling approaches:
 
-* Open a ![GitHub Issue](https://github.com/your-repo/issues)
+* Open a [GitHub Issue](https://github.com/your-repo/issues)
 
 * Clearly describe the problem or suggestion
 
@@ -53,7 +53,7 @@ If adding new features or models, clearly indicate which target (H1N1 or seasona
    
 ## Code of Conduct
 
-We expect all contributors to abide by the ![Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/). Be respectful, constructive, and open to feedback.
+We expect all contributors to abide by the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/). Be respectful, constructive, and open to feedback.
 
 ## Need Help?
 Open a discussion thread or post your question in the Issues section. We're happy to support you in contributing effectively.
