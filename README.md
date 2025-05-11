@@ -42,7 +42,7 @@ The dataset presents a **multi-label classification** problem, where the goal is
 ### Target Distribution
 Most individuals **did not receive the seasonal flu vaccine** — highlighting the importance of identifying barriers to uptake.
 
-![Target Distribution](images/seasonal_vaccine_count_plot.png)
+![Target Distribution](Images/seasonal_vaccine_count_plot.png)
 
 This chart shows the proportion of individuals who received the seasonal flu vaccine versus those who did not. It highlights a potential class imbalance, which is critical when evaluating classification performance.
 
@@ -154,18 +154,8 @@ While hyperparameter tuning improved accuracy, class imbalance remains a challen
 - Integrate **more recent datasets** (especially post-COVID-19) to reflect evolving public attitudes and behaviors for better generalization.
 
 
-## Files and Structure
-
-.
-├── H1N1_and_seasonal_flu_vaccines.ipynb # Main Jupyter notebook with code
-├── README.md # Project documentation
-├── data/ # Raw and preprocessed datasets
-├── Images/ # Saved models (optional)
-└── results/ # Evaluation reports and plots
-
-
 ### For more information
-Please review our full analysis in our ![Jupyter Notebook](H1N1_and_Seasonal_Flu_Vaccines.ipynb)
+Please review our full analysis in our **[Jupyter Notebook](H1N1_and_Seasonal_Flu_Vaccines.ipynb)**
   or our presentation.
 
-For any additional questions, please contact **[Edwin Korir](https://www.linkedin.com/in/edduh-kip-01170b288?)# Phase-3-Project
+For any additional questions, please contact **[Edwin Korir](https://www.linkedin.com/in/edduh-kip-01170b288?)**
