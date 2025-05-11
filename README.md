@@ -1,5 +1,5 @@
 # Forecasting  Seasonal Flu Vaccine Adoption
-![image](Images/influenza_vaccine1.png)
+![image](Images\influenza_vaccine1.png)
 
 Author: [Edwin Korir](https://github.com/Edwinkorir38?)
 
@@ -42,7 +42,7 @@ The dataset presents a **multi-label classification** problem, where the goal is
 ### Target Distribution
 Most individuals **did not receive the seasonal flu vaccine** — highlighting the importance of identifying barriers to uptake.
 
-![Target Distribution](Images/seasonal_vaccine_count_plot.png)
+![Target Distribution](Images\seasonal_vaccine_count_plot.png)
 
 This chart shows the proportion of individuals who received the seasonal flu vaccine versus those who did not. It highlights a potential class imbalance, which is critical when evaluating classification performance.
 
@@ -54,14 +54,14 @@ Some features exhibit positive correlations with perceptions and behaviors linke
 
 
 
-![Feature Correlations](Images/corr_map.png)
+![Feature Correlations](Images\corr_map.png)
 
 * This heatmap illustrates correlations among the dataset's numeric and encoded categorical features, helping identify multicollinearity and useful predictors.
 
 ### Missing Data Visualization
 Handled missing values using appropriate imputations and domain knowledge.
 
-![Missing Values ](Images/missing_data_in_Train_dataset.png)
+![Missing Values ](Images\missing_data_in_Train_dataset.png)
 
 * This chart shows the missing values in the train dataset which was also similart to the test dataset.
 
@@ -88,7 +88,7 @@ Several classification models were evaluated:
 - **XGBoost Algorithim.**
 
 3. Feature Importance(Random Forest)
-![Feature Importance](Images/random_forest_feature_importance.png)
+![Feature Importance](Images\random_forest_feature_importance.png)
 
 A Random Forest model was used to determine the most influential features for predicting seasonal flu vaccine uptake. Healthcare recommendations and vaccine perception variables showed high importance.
 XGBoost emerged as the top-performing model due to its robustness, interpretability, and superior performance on imbalanced data.
@@ -118,7 +118,7 @@ Models were assessed using a suite of metrics suited for imbalanced classificati
 | XGBoost             | 77.0         | 74.0       | 75.3           | 87.5      | 76.7     |
 
 ### ROC Curve Comparison
-![ROC Curves](Images/all_roc_curve.png)
+![ROC Curves](Images\all_roc_curve.png)
 
 
 ##  Conclusion
